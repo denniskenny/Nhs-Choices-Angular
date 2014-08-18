@@ -12,9 +12,4 @@ describe('controllers', function(){
     expect(myCtrl1).toBeDefined();
   }));
 
-  it('should ....', inject(function($controller) {
-    //spec body
-    var myCtrl2 = $controller('MyCtrl2', { $scope: {} });
-    expect(myCtrl2).toBeDefined();
-  }));
 });

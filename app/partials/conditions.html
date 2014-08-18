@@ -1,1 +1,20 @@
-<p>This is the partial for view 1.</p>
+
+<h2>NHS Choices Conditions</h2>
+
+<ul class="letter">
+	<li ng-repeat="letter in letters" ng-click="onLetterClicked(letter.Text)" >{{letter.Text}}</li>
+</ul>
+
+<ul class="content">
+	<li ng-repeat="content in letterContent" ng-click="onContentClicked(content.Uri)">{{content.Text}}</li>
+</ul>
+
+<ul class="condition">
+	<li ng-repeat="condition in conditions" ng-click="onConditionClicked(condition.Uri)">{{condition.Text}}</li>
+</ul>
+
+<div class="detail">
+	<div ng-bind-html="details"></div>
+</div>
+
+

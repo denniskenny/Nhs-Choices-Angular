@@ -1,0 +1,38 @@
+
+
+h2{
+	padding:0 0 0 40px;
+}
+li {
+	list-style-type: none;
+	display:inline-block;
+}
+
+li:hover{
+	background-color:#0066BB;
+	color:white;
+}
+
+ul.letter li,
+ul.content li,
+ul.condition li{
+	cursor:pointer;
+	padding:.2em .2em .1em .2em;
+}
+
+ul.letter li{
+	font-weight:bold
+}
+
+ul.condition li{
+	clear:both;
+	display:block;
+	padding-left:1em;
+	font-weight:bold;
+}
+
+.detail{
+	margin:0 3em 3em 3em;
+	padding:1em;
+	border:1px solid #999999;
+}

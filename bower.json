@@ -1,12 +1,13 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "nhs-choices-angular",
+  "description": "Integrates the NHS Choices condtions api into web views",
+  "version": "0.0.1",
+  "homepage": "https://github.com/denniskenny/Nhs-Choices-Angular",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "1.2.x",
+    "angular": "1.2.22",
+    "angular-sanitize": "~1.2.x",
     "angular-route": "1.2.x",
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
